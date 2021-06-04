@@ -17,12 +17,10 @@ namespace BA_C_SHARP_6
                 sayi--;
             }
 
-
             // while döngüsü kullanarak bir sayac yapalim:
 
             Console.WriteLine("Kactan geri sayalim: ");
             int myNumber1 = int.Parse(Console.ReadLine());
-
 
             while (myNumber1 >= 0)
             {
@@ -48,7 +46,7 @@ namespace BA_C_SHARP_6
             Console.WriteLine("Kaca kadar sayalim: ");
             int myNumber2 = int.Parse(Console.ReadLine());
 
-            while (start<=myNumber2)
+            while (start <= myNumber2)
             {
                 Console.WriteLine(start);
                 Console.Beep();
@@ -63,7 +61,6 @@ namespace BA_C_SHARP_6
             Console.Beep();
             Console.Beep();
             Console.Beep();
-
 
         }
     }
